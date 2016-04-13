@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:p="http://primefaces.org/ui">
+    <head>
+        <meta charset="utf-8"></meta>
+            <title>Registro</title>
+            <link rel="stylesheet" href="css/style_index.css"></link>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    </head>
+
+<body>
+	<div class="container">
+		<div class="top">
+                    <br/>
+                    <br/>
+                    <br/>
+                    <br/>
+                    <br/>
+		</div>
+		<div class="login-box animated fadeInUp">
+			<div class="box-header">
+				<h2>Registro</h2>
+			</div>
+				<form action="crear_usuario" method="POST">
+					<label for="username">Nombre</label>
+					<br/>
+                                        <input type="text" name="nombre" required="" autofocus=""></input>
+					<br/>
+					<label for="password">Apellidos</label>
+					<br/>
+                                        <input type="text" name="apellidos" required="" autofocus=""></input>
+					<br/>
+                                        <label for="password">Email</label>
+					<br/>
+                                        <input type="text" name="email" required="" autofocus=""></input>
+					<br/>
+                                        <label for="password">Password</label>
+					<br/>
+                                        <input type="password" name="password" required="" autofocus=""></input>
+					<br/>
+                                        <button type="submit">Registrarse</button>
+				</form>
+                                <br/>
+                                <a href="login.xhtml">Volver</a>
+			<br/>
+		</div>
+	</div>
+</body>
+</html>
+
