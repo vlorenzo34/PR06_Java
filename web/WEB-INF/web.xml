@@ -9,9 +9,57 @@
         <servlet-class>javax.faces.webapp.FacesServlet</servlet-class>
         <load-on-startup>1</load-on-startup>
     </servlet>
+    <servlet>
+        <servlet-name>crear_clientes</servlet-name>
+        <servlet-class>controller.crear_clientes</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>validacion</servlet-name>
+        <servlet-class>controller.validacion</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>validacion_admin</servlet-name>
+        <servlet-class>controller.validacion_admin</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>mostrar_clientes</servlet-name>
+        <servlet-class>controller.mostrar_clientes</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>mostrar_productos</servlet-name>
+        <servlet-class>controller.mostrar_productos</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>crear_productos</servlet-name>
+        <servlet-class>controller.crear_productos</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>Faces Servlet</servlet-name>
         <url-pattern>/faces/*</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>crear_clientes</servlet-name>
+        <url-pattern>/crear_clientes</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>validacion</servlet-name>
+        <url-pattern>/validacion</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>validacion_admin</servlet-name>
+        <url-pattern>/validacion_admin</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>mostrar_clientes</servlet-name>
+        <url-pattern>/mostrar_clientes</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>mostrar_productos</servlet-name>
+        <url-pattern>/mostrar_productos</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>crear_productos</servlet-name>
+        <url-pattern>/crear_productos</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>

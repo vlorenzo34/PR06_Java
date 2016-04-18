@@ -1,7 +1,7 @@
 body {
   padding-top: 40px;
   padding-bottom: 40px;
-  background: url("../img/bg_index.jpg") no-repeat center center fixed;
+  background-color: #eee;
 }
 
 .link_volver {

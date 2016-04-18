@@ -1,0 +1,51 @@
+body {
+    font-family: candara;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+h1 {
+  color: white;
+}
+
+h2 {
+  color: white;
+}
+
+table {
+  width: 80%;
+  margin: 0 auto;
+}
+table {
+    border: 0px solid grey;
+}
+
+table th {
+  text-align: center;
+  font-size: 18px;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+  padding: 15px;
+  background-color: #146582;
+}
+
+table td{
+  text-align: center;
+  font-size: 14px;
+  color: black;
+  padding: 15px;
+
+}
+
+table tr:nth-child(odd){
+    background-color: #D2E1E6;
+    
+}
+
+table tr:nth-child(even){
+    background-color: #F7F8E6;
+    
+}

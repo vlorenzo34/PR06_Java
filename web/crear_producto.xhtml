@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:p="http://primefaces.org/ui">
+    <head>
+        <meta charset="utf-8"></meta>
+            <title>Registro</title>
+            <link href="css/style_register.css" rel="stylesheet"></link>
+            <link href="css/style_register_bootstrap.css" rel="stylesheet"></link>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    </head>
+
+<body>
+	<div class="container">
+		<div class="top">
+                    <br/>
+                    <br/>
+                    <br/>
+                    <br/>
+                    <br/>
+		</div>
+		<div class="login-box animated fadeInUp">
+				<div class="container">
+                                        <form class="form-signin" action="crear_productos" method="POST">
+                                          <h2 class="form-signin-heading">Registro de producto</h2>
+                                          <br/>
+                                          <input class="form-control" placeholder="Nombre" required="" autofocus="" type="text" name="nombre"></input>
+                                          <br/>
+                                          <input class="form-control" placeholder="Precio" required="" autofocus="" type="text" name="precio"></input>
+                                          <br/>
+                                          <textarea class="form-control" placeholder="Descripcion" required="" autofocus="" type="text" name="descripcion"></textarea>
+                                          <br/>
+                                          <button class="btn btn-lg btn-primary btn-block" type="submit">Registrar</button>
+                                          <br/>
+                                          <div class="link_volver"><a href="index_admin.jsp">Volver</a></div>
+                                        </form>
+                                <br/>
+                                </div> 
+			<br/>
+		</div>
+	</div>
+</body>
+</html>
+
